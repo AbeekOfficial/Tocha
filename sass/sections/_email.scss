@@ -1,0 +1,48 @@
+.email {
+     margin-top: 70px;
+     &__container {
+          background-color: #685ED6;
+     }
+     &__info {
+          display: flex;
+          align-items: center;
+          gap: 70px;
+          margin-left: 200px;
+          padding-top: 70px;
+     }
+     &__content {
+          h1 {
+               color: var(--default-white, #FFF);
+               font-feature-settings: 'salt' on, 'liga' off;
+               font-family: Gilroy;
+               font-size: 33px;
+               font-style: normal;
+               font-weight: 800;
+               line-height: 41px; /* 124.242% */
+               margin-bottom: 32px;
+          }
+     }
+     &__buttons {
+          display: flex;
+          align-items: center;
+          .send-btn {
+               display: flex;
+               padding: 16px 24px;
+               align-items: center;
+               gap: 10px;
+               color: #fff;
+               background-color: #000;
+               border-radius: 6px;
+          }
+     }
+     &__btn {
+          padding: 14px 16px;
+          background: #fff;
+          border-radius: 6px;
+          input {
+               width: 100%;
+               outline: none;
+               border: none;
+          }
+     }
+}

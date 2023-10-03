@@ -1,0 +1,98 @@
+.header {
+     padding-top: 44px;
+     &__container {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          .logo {
+               display: flex;
+               align-items: center;
+               gap: 12px;
+          } 
+     }
+     &__navbar {
+          display: flex;
+          align-items: center;
+          gap: 35px;
+          a {
+               color: var(--black, #1D2530);
+               font-family: Gilroy;
+               font-size: 20px;
+               font-style: normal;
+               font-weight: light;
+               line-height: 26px; 
+          }
+          a:hover {
+               color: var(--violet, #685ED6);
+               cursor: pointer; 
+          }
+     }
+     i {
+          display: none;
+     }
+}
+
+// Tablet
+@media only screen and (max-width: 768px) {
+     .header {
+          padding-top: 44px;
+          &__container {
+               display: flex;
+               align-items: center;
+               gap: 270px;
+               justify-content: space-around;
+               .logo {
+                    display: flex;
+                    align-items: center;
+                    gap: 12px;
+               } 
+          }
+          &__navbar {
+               display: flex;
+               align-items: center;
+               gap: 35px;
+               a {
+                    color: var(--black, #1D2530);
+                    font-family: Gilroy;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: light;
+                    line-height: 26px; 
+               }
+               a:hover {
+                    color: var(--violet, #685ED6);
+                    cursor: pointer; 
+               }
+          }
+          i {
+               display: none;
+          }
+     }
+}
+
+// Phone
+@media only screen and (max-width: 480px) {
+     .header {
+          padding-top: 44px;
+          &__container {
+               display: flex;
+               align-items: center;
+               justify-content: space-between;
+               .logo {
+                    display: flex;
+                    align-items: center;
+                    gap: 12px;
+               } 
+          }
+          &__navbar {
+               display: none;
+          }
+          i {
+               display: block;
+               font-size: larger;
+               border-radius: 2px;
+               background: var(--violet, #685ED6);
+               color: red;
+          }
+     }
+}

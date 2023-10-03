@@ -1,0 +1,101 @@
+.online {
+     padding-top: 100px;
+     &__container {
+          display: flex;
+          gap: 130px;
+     }
+     &__content {
+          margin-top: 20px;
+          h3 {
+               color: var(--black, #1D2530);
+               font-family: Gilroy;
+               font-size: 48px;
+               font-style: normal;
+               font-weight: 800;
+               line-height: 32px;
+               padding-bottom: 68px;
+          }
+     }
+     &__content-items {
+          display: flex;
+          flex-direction: column;
+          gap: 48px;
+     }
+     &__content-item {
+          display: flex;
+          gap: 26px;
+          .text {
+               h4 {
+                    color: var(--black, #1D2530);
+                    font-feature-settings: 'salt' on, 'liga' off;
+                    font-family: Gilroy;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 32px; 
+               }
+               p {
+                    color: var(--black, #1D2530);
+                    font-feature-settings: 'salt' on, 'liga' off;
+                    font-family: Gilroy;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 26px;
+               }
+          }
+     }
+}
+
+// Tablet
+@media only screen and (max-width: 768px) {
+     .online {
+          padding-top: 100px;
+          &__container {
+               display: flex;
+               gap: 130px;
+          }
+          &__content {
+               margin-top: 20px;
+               h3 {
+                    color: var(--black, #1D2530);
+                    font-family: Gilroy;
+                    font-size: 48px;
+                    font-style: normal;
+                    font-weight: 800;
+                    line-height: 32px;
+                    padding-bottom: 68px;
+               }
+          }
+          &__content-items {
+               display: flex;
+               flex-direction: column;
+               gap: 48px;
+          }
+          &__content-item {
+               display: flex;
+               gap: 26px;
+               .text {
+                    h4 {
+                         color: var(--black, #1D2530);
+                         font-feature-settings: 'salt' on, 'liga' off;
+                         font-family: Gilroy;
+                         font-size: 24px;
+                         font-style: normal;
+                         font-weight: 600;
+                         line-height: 32px; 
+                    }
+                    p {
+                         color: var(--black, #1D2530);
+                         font-feature-settings: 'salt' on, 'liga' off;
+                         font-family: Gilroy;
+                         font-size: 16px;
+                         font-style: normal;
+                         font-weight: 400;
+                         line-height: 26px;
+                    }
+               }
+          }
+     }
+}
+

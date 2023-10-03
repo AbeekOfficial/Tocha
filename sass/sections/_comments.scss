@@ -1,0 +1,98 @@
+.comments {
+     background: rgba(242, 247, 255, 0.50);
+     padding-top: 70px;
+     h1 {
+          color: var(--black, #1D2530);
+          font-feature-settings: 'salt' on, 'liga' off;
+          font-family: Gilroy;
+          font-size: 46px;
+          font-style: normal;
+          font-weight: 800;
+          line-height: 64px; /* 139.13% */
+          margin-bottom: 48px;
+          text-align: center;
+     }
+     &__cards {
+          display: flex;
+          align-items: center;
+          gap: 30px;
+     }
+     &__card {
+          padding: 56px 32px;
+          background-color: #fff;
+          border-radius: 6px;
+          h5 {
+               width: 476px;
+               color: var(--text-gray-900, #18191F);
+               text-align: center;
+               font-feature-settings: 'salt' on, 'liga' off;
+               font-family: Inter;
+               font-size: 18px;
+               font-style: normal;
+               font-weight: 500;
+               line-height: 28px;
+               margin-bottom: 8px;
+          }
+          p {
+               color: var(--text-gray-900, #18191F);
+               text-align: center;
+               font-feature-settings: 'salt' on, 'liga' off;
+               font-family: Gilroy;
+               font-size: 14px;
+               font-style: normal;
+               font-weight: 400;
+               line-height: 24px; /* 171.429% */
+          }
+     }
+     &__persons {
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          margin-top: 20px;
+     }
+     &__person {
+          display: flex;
+          align-items: center;
+          gap: 15px;
+          h5 {
+               color: var(--black, #1D2530);
+               font-feature-settings: 'salt' on, 'liga' off;
+               font-family: Gilroy;
+               font-size: 18px;
+               font-style: normal;
+               font-weight: 700;
+               line-height: 28px; /* 155.556% */
+          }
+          p {
+               color: var(--black, #1D2530);
+               font-feature-settings: 'salt' on, 'liga' off;
+               font-family: Gilroy;
+               font-size: 14px;
+               font-style: normal;
+               font-weight: 400;
+               line-height: 24px; /* 171.429% */
+          }
+     }
+     &__pages {
+          margin-top: 50px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 10px;
+          text-align: center;
+          .blue {
+               background-color: #685ed6;
+               width: 10px;
+               height: 10px;
+               border-radius: 50%;
+          }
+          .white {
+               width: 10px;
+               height: 10px;
+               border-radius: 50%;
+               border: 1px solid #685ed6;
+               background-color: #fff;
+               stroke-width: 5px;
+          }
+     }
+}

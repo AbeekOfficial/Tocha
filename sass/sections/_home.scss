@@ -1,0 +1,65 @@
+.home {
+     padding-top: 51px;
+     &__container {
+          display: flex;
+          gap: 50px;
+     }
+     &__content {
+          h1 {
+               color:  #1D2530;
+               font-family: Gilroy;
+               font-size: 50px;
+               font-style: normal;
+               font-weight: 800;
+               line-height: 60px;
+               padding-bottom: 24px;
+          }
+          p {
+               color: var(--black, #1D2530);
+               font-family: Gilroy;
+               font-size: 24px;
+               font-style: normal;
+               font-weight: 400;
+               line-height: 34px;
+          }
+          button {
+               margin-top: 40px;
+          }
+     }
+}
+
+// Tablet
+@media only screen and (max-width: 768px) {
+     .home {
+          margin-top: 51px;
+          &__container {
+               display: flex;
+               justify-content: space-around;
+          }
+          &__content {
+               h1 {
+                    color:  #1D2530;
+                    font-family: Gilroy;
+                    font-size: 50px;
+                    font-style: normal;
+                    font-weight: 800;
+                    line-height: 60px;
+                    padding-bottom: 24px;
+               }
+               p {
+                    color: var(--black, #1D2530);
+                    font-family: Gilroy;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 34px;
+               }
+               button {
+                    margin-top: 40px;
+               }
+          }
+          &__bg {
+               width: 70%;
+          }
+     }
+}

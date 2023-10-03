@@ -1,0 +1,84 @@
+.tarif {
+     padding-top: 70px;
+     margin-bottom: 70px;
+     &__header {
+          h3 {
+               color: var(--black, #1D2530);
+               text-align: center;
+               font-feature-settings: 'salt' on, 'liga' off;
+               font-family: Gilroy;
+               font-size: 46px;
+               font-style: normal;
+               font-weight: 800;
+               line-height: 64px;
+               padding-bottom: 16px;
+          }
+          p {
+               color: var(--black, #1D2530);
+               text-align: center;
+               font-feature-settings: 'salt' on, 'liga' off;
+               font-family: Gilroy;
+               font-size: 24px;
+               font-style: normal;
+               font-weight: 700;
+               line-height: 32px;
+          }
+     }
+     &__cards {
+          padding-top: 40px;
+          display: flex;
+          gap: 35px;
+     }
+     &__card {
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          border-radius: 6px;
+          background: #FCFEFF;
+          box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.07);
+          .tarif-span {
+               width: 100%;
+               background: #F5F6FD;
+               padding: 15px 0;
+               text-align: center;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               color: var(--violet, #685ED6);
+               font-family: Gilroy;
+               font-size: 24px;
+               font-style: normal;
+               font-weight: 800;
+               line-height: 48px; /* 200% */
+          }
+          .first-text {
+               padding: 30px 30px 0 30px;
+               color: var(--black, #1D2530);
+               text-align: center;
+               font-family: Gilroy;
+               font-size: 28px;
+               font-style: normal;
+               font-weight: 700;
+               line-height: 40px;
+          }
+          .second-text {
+               color: var(--black, #1D2530);
+               text-align: center;
+               font-family: Gilroy;
+               font-size: 20px;
+               font-style: normal;
+               font-weight: 500;
+               line-height: 30px; 
+               padding: 50px 49px;
+          }
+          button {
+               display: flex;
+               align-items: center;
+               justify-content: center;
+          }
+     }
+}
+
+@media only screen and (max-width: 768px) {
+     
+}

@@ -1,0 +1,117 @@
+.connecting {
+     background: rgba(242, 247, 255, 0.50);
+     padding-bottom: 100px;
+     &__container {
+          position: relative;
+     }
+     padding-top: 100px;
+     &__heading {
+          color: var(--black, #1D2530);
+          font-feature-settings: 'salt' on, 'liga' off;
+          font-family: Gilroy;
+          font-size: 46px;
+          font-style: normal;
+          font-weight: 800;
+          line-height: 64px;
+          text-align: center;
+          margin-bottom: 50px;
+     }
+     &__cards {
+          display: flex;
+          justify-content: space-between;
+
+     }
+     &__card {
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+     }
+     &__card-middle {
+          margin-top: 60px;
+     }
+     &__card-content {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          padding-bottom: 52px;
+          .content-number {
+               display: flex;
+               width: 72px;
+               height: 72px;
+               padding: 8px 0px 7px 0px;
+               justify-content: center;
+               align-items: center;
+               flex-shrink: 0;
+               border-radius: 100px;
+               background: var(--violet-secondary, #F1E4FF);
+               color: #685ED6;
+               font-size: 24px;
+               margin-bottom: 16px;
+          }
+          h5 {
+               color: var(--black, #1D2530);
+               text-align: center;
+               font-feature-settings: 'salt' on, 'liga' off;
+               font-family: Gilroy;
+               font-size: 22px;
+               font-style: normal;
+               font-weight: 700;
+               line-height: 28px; /* 155.556% */
+               padding-bottom: 10px;
+          }
+          p {
+               color: var(--black, #1D2530);
+               text-align: center;
+               font-feature-settings: 'salt' on, 'liga' off;
+               font-family: Gilroy;
+               font-size: 16px;
+               font-style: normal;
+               font-weight: 400;
+               line-height: 26px; /* 162.5% */
+          }
+     }
+     &__lines {
+          .line-1 {
+               top: 130px;
+               position: absolute;
+               left: 170px;
+               img:nth-child(2) {
+                    top: 20px;
+                    position: absolute;
+                    left: 140px;
+               }
+               img:nth-child(3) {
+                    top: 70px;
+                    left: 220px;
+                    position: absolute;
+               }
+          }
+          .line-2 {
+               top: 100px;
+               right: 20px;
+               position: absolute;
+               img:first-child {
+                    top: 20px;
+                    right: 370px;
+                    position: absolute;
+               }
+               img:nth-child(2) {
+                    position: absolute;
+                    right: 290px;
+                    top: 20px;
+               }
+               img:nth-child(3) {
+                    position: absolute;
+                    right: 160px;
+                    top: 70px;
+               }
+          }
+     }
+}
+
+@media only screen and (max-width: 768px) {
+     .connecting {
+          
+     }
+}
